@@ -1,0 +1,99 @@
+ .test{
+    color:#000000;
+    background: #ffaa09;
+    line-height: 200px;
+    text-align: center;
+    width:250px;
+    height:200px;
+    border-radius: 6px;
+    transition-property:color width,background,border-radius ;
+    transition-duration: .5s;
+    transition-timing-function: ease-out;
+    transition-delay:.5s;
+}
+.test:hover{
+    color: #209fda;
+    width: 350px;
+    background: #267832;
+    border-radius: 50%;
+}
+.test:active{
+    color: darkmagenta;
+    width: 150px;
+    background: darkred;
+}
+.first {
+    background: #2db34a;
+    border-radius: 6px;
+    height: 100px;
+    width:100px;
+    text-align: center;
+    transition-property: background, border-radius;
+    transition-duration:  1s;
+    transition-timing-function: linear, ease-in;
+  }
+  .first:hover {
+    background: #ff7b29;
+    border-radius: 50%;
+  }
+button{
+    background: #0087cc;
+    border-radius: 10px;
+    box-shadow: #ffaa09 5px;
+
+}
+.card-container{
+    height:150px;
+    perspective:600;
+    position: relative;
+    background: #3fccbb;
+    text-align: center;
+    width: 150px;
+}
+.card{
+    height: 100%;
+    position: static;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+}
+.card:hover {
+    transform: rotateY(180deg);
+  }
+  .card .side {
+    backface-visibility: hidden;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+  .card .back {
+    transform: rotateY(180deg);
+  }
+  .animation{
+    animation-name: movingBalls;
+    animation-duration: 10s;
+    animation-iteration-count: 5;
+    background: #ff095b;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+@keyframes{}
+  @keyframes movingBalls{
+    0%{
+      background-color: blueviolet;
+      left:0px;
+      top:0px;
+    }
+    50%{
+      background-color: chartreuse;
+      left:300px;
+      top:0px;
+    }
+    100%{
+      background-color: cyan;
+      left:0px;
+      top:0px;
+    }
+  }

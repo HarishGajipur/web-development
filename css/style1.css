@@ -1,0 +1,37 @@
+
+
+h1{
+    background-color: rosybrown;
+}
+header 
+    {background-color: royalblue;
+    text-align:center;
+    
+}  
+h1{
+    color:rebeccapurple;
+}
+nav{font-variant: small-caps;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;}
+h2{color: crimson;
+   background-color: darkgoldenrod;}
+div{width:30%;
+    background-color: darkseagreen;
+    height: 400px;
+
+    display:inline-block;
+    float:left;
+    overflow:auto;
+    border: solid 3px #CC00AA;
+    border-style: double;
+    border-width: 3px 50px;
+    margin: 9px;
+    padding:10px;
+    
+    }
+    ol:hover{
+        color: aqua;
+        width: 350px;
+        background: blueviolet;
+    }

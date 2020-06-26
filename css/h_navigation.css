@@ -1,0 +1,29 @@
+body{
+    background-color: seagreen;
+    margin: 1%;
+    padding: 1%;
+}
+nav{
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    color: #ffffff;
+    background-color: seagreen;
+    margin: 2%;
+    padding: 3%;
+    /*overflow: auto;*/
+    padding-left: 80px;
+   
+}
+nav a{
+    text-decoration: none;
+    margin: 2%;
+    padding: 3%;
+    background-color: rgb(107, 57, 199);
+    border-radius: 20px;
+    color:white;
+
+}
+nav a:hover{
+    color: white;
+    border-radius: 0;
+}
